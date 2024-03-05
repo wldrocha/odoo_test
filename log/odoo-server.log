@@ -1,0 +1,866 @@
+2024-03-05 18:29:58,676 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-03-05 18:29:58,694 1 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-03-05 18:39:51,443 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:39:51] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.026
+2024-03-05 18:42:12,701 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-03-05 18:42:12,720 1 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-03-05 18:50:21,074 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-03-05 18:50:21,082 1 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-03-05 18:53:11,606 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-03-05 18:53:11,608 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-03-05 18:53:11,825 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 9 connections  
+2024-03-05 18:53:35,111 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:560: DeprecationWarning: The osv-memory-age-limit is a deprecated alias to the transient-age-limit option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 560, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 18:53:35,112 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:566: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 566, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 18:53:35,112 1 INFO ? odoo: Odoo version 16.0-20240229 
+2024-03-05 18:53:35,112 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-03-05 18:53:35,112 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-03-05 18:53:35,113 1 INFO ? odoo: database: odoo@db:5432 
+2024-03-05 18:53:35,191 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-03-05 18:53:35,295 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea99b3c33f68:8069 
+2024-03-05 18:53:48,723 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 18:53:48,730 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-03-05 18:53:48,750 1 INFO odoo odoo.modules.loading: loading 68 modules... 
+2024-03-05 18:53:49,013 1 INFO odoo odoo.modules.loading: 68 modules loaded in 0.26s, 0 queries (+0 extra) 
+2024-03-05 18:53:49,083 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 18:53:49,086 1 INFO odoo odoo.modules.registry: Registry loaded in 0.397s 
+2024-03-05 18:53:49,087 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 18:53:49,155 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:53:49] "GET /websocket HTTP/1.1" 101 - 23 0.031 0.437
+2024-03-05 18:53:49,160 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-03-05 18:57:32,302 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 18:57:32,322 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "POST /web/action/load HTTP/1.1" 200 - 11 0.009 0.172
+2024-03-05 18:57:32,397 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 51 0.016 0.050
+2024-03-05 18:57:32,631 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 167 0.041 0.151
+2024-03-05 18:57:32,713 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.007 0.006
+2024-03-05 18:57:32,719 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "POST /base_setup/data HTTP/1.1" 200 - 6 0.004 0.012
+2024-03-05 18:57:32,738 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-03-05 18:57:32,810 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 18:57:32,818 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:32] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 18:57:40,457 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:40] "GET /web?debug=1 HTTP/1.1" 200 - 80 0.045 1.625
+2024-03-05 18:57:40,517 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:40] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.001 0.005
+2024-03-05 18:57:40,925 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:40] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.004 0.010
+2024-03-05 18:57:40,954 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:40] "POST /web/action/load HTTP/1.1" 200 - 8 0.010 0.012
+2024-03-05 18:57:40,954 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 13 0.008 0.011
+2024-03-05 18:57:40,956 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:40] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2024-03-05 18:57:41,002 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:41] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2024-03-05 18:57:41,013 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:41] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 34 0.020 0.013
+2024-03-05 18:57:41,017 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:41] "POST /mail/init_messaging HTTP/1.1" 200 - 47 0.024 0.013
+2024-03-05 18:57:41,035 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:41] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.003 0.003
+2024-03-05 18:57:41,040 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:41] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.005 0.006
+2024-03-05 18:57:54,381 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:54] "POST /web/action/load HTTP/1.1" 200 - 9 0.013 0.024
+2024-03-05 18:57:54,416 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:54] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.001 0.024
+2024-03-05 18:57:54,490 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:54] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 36 0.016 0.016
+2024-03-05 18:57:54,580 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:54] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.002
+2024-03-05 18:57:54,584 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:57:54] "POST /base_setup/data HTTP/1.1" 200 - 5 0.002 0.002
+2024-03-05 18:58:01,952 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:01] "GET /web?debug= HTTP/1.1" 200 - 43 0.029 0.069
+2024-03-05 18:58:02,258 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.004 0.010
+2024-03-05 18:58:02,281 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "POST /web/action/load HTTP/1.1" 200 - 8 0.010 0.009
+2024-03-05 18:58:02,283 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.007 0.016
+2024-03-05 18:58:02,283 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.004
+2024-03-05 18:58:02,319 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.008 0.008
+2024-03-05 18:58:02,323 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.001
+2024-03-05 18:58:02,332 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.016 0.012
+2024-03-05 18:58:02,345 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.002 0.003
+2024-03-05 18:58:02,351 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:02] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.004 0.006
+2024-03-05 18:58:05,236 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:05] "POST /web/action/load HTTP/1.1" 200 - 9 0.019 0.021
+2024-03-05 18:58:05,268 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:05] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.001 0.020
+2024-03-05 18:58:05,333 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:05] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 31 0.008 0.016
+2024-03-05 18:58:05,411 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:05] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.002
+2024-03-05 18:58:05,415 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:05] "POST /base_setup/data HTTP/1.1" 200 - 5 0.002 0.002
+2024-03-05 18:58:09,289 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.006 0.014
+2024-03-05 18:58:09,609 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.015
+2024-03-05 18:58:09,629 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "POST /web/action/load HTTP/1.1" 200 - 8 0.009 0.006
+2024-03-05 18:58:09,630 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.006
+2024-03-05 18:58:09,631 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.010 0.010
+2024-03-05 18:58:09,667 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.008 0.007
+2024-03-05 18:58:09,672 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.003
+2024-03-05 18:58:09,677 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.015 0.011
+2024-03-05 18:58:09,689 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.001 0.003
+2024-03-05 18:58:09,693 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:09] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.003 0.005
+2024-03-05 18:58:24,326 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "POST /web/action/load HTTP/1.1" 200 - 14 0.019 0.367
+2024-03-05 18:58:24,436 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "POST /web/dataset/call_kw/sale.order/get_views HTTP/1.1" 200 - 98 0.020 0.084
+2024-03-05 18:58:24,456 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2024-03-05 18:58:24,471 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "POST /web/dataset/call_kw/sale.order/web_search_read HTTP/1.1" 200 - 26 0.008 0.008
+2024-03-05 18:58:24,485 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.001 0.002
+2024-03-05 18:58:24,520 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "POST /sales/sale_quotation_onboarding_panel HTTP/1.1" 200 - 30 0.007 0.022
+2024-03-05 18:58:24,531 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "GET /sale/static/src/img/sale_quotation_onboarding_bg.jpg HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 18:58:24,585 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:24] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 9 0.005 0.007
+2024-03-05 18:58:40,498 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /web/dataset/call_kw/sale.order/read HTTP/1.1" 200 - 42 0.039 0.030
+2024-03-05 18:58:40,514 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /web/dataset/call_kw/crm.tag/read HTTP/1.1" 200 - 2 0.001 0.003
+2024-03-05 18:58:40,531 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /web/dataset/call_kw/sale.order.line/read HTTP/1.1" 200 - 26 0.012 0.009
+2024-03-05 18:58:40,543 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /web/dataset/call_kw/utm.campaign/name_get HTTP/1.1" 200 - 3 0.001 0.003
+2024-03-05 18:58:40,546 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 - 8 0.002 0.004
+2024-03-05 18:58:40,599 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /mail/thread/messages HTTP/1.1" 200 - 26 0.011 0.007
+2024-03-05 18:58:40,601 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "POST /mail/thread/data HTTP/1.1" 200 - 33 0.011 0.010
+2024-03-05 18:58:40,920 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 21 0.010 0.301
+2024-03-05 18:58:40,927 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "GET /web/assets/469-199ddb0/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 18:58:40,928 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "GET /web/assets/468-199ddb0/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 18:58:40,975 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:40] "GET /web/static/img/openhand.cur HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 18:58:41,013 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 18:58:41] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.002 0.004
+2024-03-05 19:00:35,607 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-03-05 19:00:35,617 1 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-03-05 19:06:00,294 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:00] "POST /web/action/load HTTP/1.1" 200 - 11 0.014 0.026
+2024-03-05 19:06:00,349 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:00] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 37 0.015 0.027
+2024-03-05 19:06:00,375 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.003
+2024-03-05 19:06:00,385 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.013 0.007
+2024-03-05 19:06:06,570 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.011
+2024-03-05 19:06:06,584 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.004
+2024-03-05 19:06:12,624 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.018
+2024-03-05 19:06:12,639 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:12] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.004
+2024-03-05 19:06:21,767 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:21] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.012 0.017
+2024-03-05 19:06:21,783 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.011 0.037
+2024-03-05 19:06:21,861 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:21] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-03-05 19:06:21,863 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:21] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 19:06:25,820 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.020 0.025
+2024-03-05 19:06:25,843 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:25] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-03-05 19:06:25,882 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:25] "GET /base/static/img/country_flags/ph.png HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 19:06:33,600 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:33] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.012 0.029
+2024-03-05 19:06:34,009 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.005 0.010
+2024-03-05 19:06:34,019 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /web/action/load HTTP/1.1" 200 - 10 0.013 0.015
+2024-03-05 19:06:34,028 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "GET /websocket HTTP/1.1" 101 - 1 0.002 0.006
+2024-03-05 19:06:34,030 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.006 0.013
+2024-03-05 19:06:34,037 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.009
+2024-03-05 19:06:34,070 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.005
+2024-03-05 19:06:34,085 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.007 0.028
+2024-03-05 19:06:34,085 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.021 0.014
+2024-03-05 19:06:34,093 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.024
+2024-03-05 19:06:34,103 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.011 0.024
+2024-03-05 19:06:34,112 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.024 0.025
+2024-03-05 19:06:34,115 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:34] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.013 0.005
+2024-03-05 19:06:57,920 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.009 0.012
+2024-03-05 19:06:57,932 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:06:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.020 0.012
+2024-03-05 19:07:00,760 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.021 0.026
+2024-03-05 19:07:00,781 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-03-05 19:07:10,236 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:10] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.025 0.021
+2024-03-05 19:07:10,257 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:10] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.004
+2024-03-05 19:07:13,161 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.022 0.019
+2024-03-05 19:07:13,181 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-03-05 19:07:23,096 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:23] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.013 0.020
+2024-03-05 19:07:23,112 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.020
+2024-03-05 19:07:25,097 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.032 0.027
+2024-03-05 19:07:25,115 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:25] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-03-05 19:07:52,431 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-03-05 19:07:52,432 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-03-05 19:07:52,888 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2024-03-05 19:07:55,125 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:560: DeprecationWarning: The osv-memory-age-limit is a deprecated alias to the transient-age-limit option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 560, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:07:55,125 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:566: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 566, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:07:55,126 1 INFO ? odoo: Odoo version 16.0-20240229 
+2024-03-05 19:07:55,126 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-03-05 19:07:55,126 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-03-05 19:07:55,126 1 INFO ? odoo: database: odoo@db:5432 
+2024-03-05 19:07:55,184 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-03-05 19:07:55,306 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea99b3c33f68:8069 
+2024-03-05 19:07:57,270 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 19:07:57,276 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-03-05 19:07:57,299 1 INFO odoo odoo.modules.loading: loading 68 modules... 
+2024-03-05 19:07:57,551 1 INFO odoo odoo.modules.loading: 68 modules loaded in 0.25s, 0 queries (+0 extra) 
+2024-03-05 19:07:57,622 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 19:07:57,625 1 INFO odoo odoo.modules.registry: Registry loaded in 0.390s 
+2024-03-05 19:07:57,626 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 19:07:57,696 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:07:57] "GET /websocket HTTP/1.1" 101 - 23 0.030 0.432
+2024-03-05 19:07:57,702 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-03-05 19:08:05,543 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:05] "GET /web?debug=1 HTTP/1.1" 200 - 50 0.050 3.781
+2024-03-05 19:08:05,544 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:05] "GET /web?debug=1 HTTP/1.1" 200 - 82 0.066 4.367
+2024-03-05 19:08:05,544 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:05] "GET /web?debug=1 HTTP/1.1" 200 - 54 0.099 4.051
+2024-03-05 19:08:06,289 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:08:06,290 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:08:06,291 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:08:06,291 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:08:06,291 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:08:06,291 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:08:06,303 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.002 0.716
+2024-03-05 19:08:06,303 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.002 0.719
+2024-03-05 19:08:06,303 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.001 0.711
+2024-03-05 19:08:06,307 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 2 0.001 0.707
+2024-03-05 19:08:06,313 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.003 0.726
+2024-03-05 19:08:06,314 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.003 0.730
+2024-03-05 19:08:06,323 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.002 0.008
+2024-03-05 19:08:06,611 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.002 0.016
+2024-03-05 19:08:06,620 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:08:06,718 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/webclient/locale/es_VE HTTP/1.1" 200 - 1 0.001 0.011
+2024-03-05 19:08:06,725 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.003 0.006
+2024-03-05 19:08:06,727 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /web/action/load HTTP/1.1" 200 - 11 0.004 0.010
+2024-03-05 19:08:06,743 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2024-03-05 19:08:06,744 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.003
+2024-03-05 19:08:06,750 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.005
+2024-03-05 19:08:06,777 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.023 0.012
+2024-03-05 19:08:06,796 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 45 0.017 0.036
+2024-03-05 19:08:06,834 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2024-03-05 19:08:06,837 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.020 0.008
+2024-03-05 19:08:06,844 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.011
+2024-03-05 19:08:06,854 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /mail/init_messaging HTTP/1.1" 200 - 47 0.040 0.012
+2024-03-05 19:08:06,855 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 34 0.040 0.012
+2024-03-05 19:08:06,863 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.027 0.019
+2024-03-05 19:08:06,903 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:06] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.005 0.004
+2024-03-05 19:08:11,372 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:11] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.018
+2024-03-05 19:08:11,391 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.015
+2024-03-05 19:08:14,705 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.022
+2024-03-05 19:08:14,720 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.004
+2024-03-05 19:08:18,137 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:18] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 14 0.014 0.050
+2024-03-05 19:08:18,148 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:18] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.001 0.003
+2024-03-05 19:08:18,196 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:18] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 11 0.002 0.023
+2024-03-05 19:08:18,243 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:18] "GET /base/static/src/css/description.css HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 19:08:18,259 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:18] "GET /web/image?model=ir.module.module&id=346&field=icon_image&unique=1709662811000 HTTP/1.1" 200 - 4 0.001 0.003
+2024-03-05 19:08:21,425 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:21] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.007
+2024-03-05 19:08:25,108 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:25] "POST /web/action/load HTTP/1.1" 200 - 7 0.007 0.014
+2024-03-05 19:08:30,816 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:30] "POST /web/action/load HTTP/1.1" 200 - 8 0.007 0.020
+2024-03-05 19:08:30,864 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:30] "POST /web/dataset/call_kw/ir.module.module/get_apps_server HTTP/1.1" 200 - 1 0.001 0.004
+2024-03-05 19:08:32,932 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:32] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.001 0.004
+2024-03-05 19:08:32,959 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:32] "POST /web/dataset/call_kw/ir.module.module/search_read HTTP/1.1" 200 - 3 0.002 0.017
+2024-03-05 19:08:33,426 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:33] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.012
+2024-03-05 19:08:33,437 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.013
+2024-03-05 19:08:36,174 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:36] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.003
+2024-03-05 19:08:36,200 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:36] "POST /web/dataset/call_kw/ir.module.module/search_read HTTP/1.1" 200 - 3 0.003 0.017
+2024-03-05 19:08:36,677 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.008 0.021
+2024-03-05 19:08:36,706 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:36] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.005 0.010
+2024-03-05 19:08:36,735 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:36] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.002 0.005
+2024-03-05 19:08:38,365 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:38] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.006 0.014
+2024-03-05 19:08:38,385 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:38] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.002 0.006
+2024-03-05 19:08:38,398 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 192.168.65.1 
+2024-03-05 19:08:38,669 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 1153 0.154 0.122
+2024-03-05 19:08:41,075 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:41] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.003 0.016
+2024-03-05 19:08:41,102 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2024-03-05 19:08:41,119 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.014
+2024-03-05 19:08:42,961 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.018 0.020
+2024-03-05 19:08:42,981 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.022 0.033
+2024-03-05 19:08:45,044 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.021 0.019
+2024-03-05 19:08:45,064 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.005
+2024-03-05 19:08:48,190 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:48] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.007 0.026
+2024-03-05 19:08:48,207 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:48] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.004
+2024-03-05 19:08:48,238 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:08:48] "GET /web/image?model=ir.module.module&id=557&field=icon_image&unique=1709665718000 HTTP/1.1" 200 - 3 0.001 0.003
+2024-03-05 19:09:57,479 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-03-05 19:09:57,492 1 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-03-05 19:09:59,683 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.012 0.041
+2024-03-05 19:09:59,779 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.006 0.025
+2024-03-05 19:09:59,779 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.004 0.029
+2024-03-05 19:09:59,780 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.010 0.021
+2024-03-05 19:09:59,780 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.010 0.018
+2024-03-05 19:09:59,783 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.003 0.017
+2024-03-05 19:09:59,820 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.002 0.057
+2024-03-05 19:09:59,834 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:09:59] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.003 0.007
+2024-03-05 19:10:00,079 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.005 0.005
+2024-03-05 19:10:00,125 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:10:00,172 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.022
+2024-03-05 19:10:00,175 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/webclient/locale/es_VE HTTP/1.1" 200 - 1 0.000 0.003
+2024-03-05 19:10:00,271 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.005
+2024-03-05 19:10:00,275 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.008
+2024-03-05 19:10:00,282 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2024-03-05 19:10:00,283 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.003
+2024-03-05 19:10:00,293 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2024-03-05 19:10:00,298 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.007 0.012
+2024-03-05 19:10:00,300 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.017
+2024-03-05 19:10:00,320 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.002
+2024-03-05 19:10:00,352 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.004
+2024-03-05 19:10:00,363 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.016 0.014
+2024-03-05 19:10:00,365 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.005 0.013
+2024-03-05 19:10:00,396 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.044 0.019
+2024-03-05 19:10:00,398 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.008 0.044
+2024-03-05 19:10:00,414 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.003
+2024-03-05 19:10:00,419 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.005 0.005
+2024-03-05 19:10:00,440 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:10:00,451 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:00] "GET /web/assets/469-199ddb0/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 19:10:02,858 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:02] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.012
+2024-03-05 19:10:02,871 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:02] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.007
+2024-03-05 19:10:02,890 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:02] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.000 0.005
+2024-03-05 19:10:03,836 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:03] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.006 0.014
+2024-03-05 19:10:03,852 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:03] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:10:03,863 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 192.168.65.1 
+2024-03-05 19:10:04,152 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:04] "POST /web/dataset/call_button HTTP/1.1" 200 - 1142 0.168 0.125
+2024-03-05 19:10:11,320 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.019
+2024-03-05 19:10:11,339 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:11] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.006
+2024-03-05 19:10:12,783 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:12] "POST /web/action/load HTTP/1.1" 200 - 8 0.007 0.015
+2024-03-05 19:10:12,802 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:12] "POST /web/dataset/call_kw/ir.module.module/get_apps_server HTTP/1.1" 200 - 1 0.001 0.004
+2024-03-05 19:10:14,060 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:14] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.004
+2024-03-05 19:10:14,082 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:14] "POST /web/dataset/call_kw/ir.module.module/search_read HTTP/1.1" 200 - 3 0.003 0.014
+2024-03-05 19:10:18,147 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:18] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.013
+2024-03-05 19:10:18,169 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:18] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2024-03-05 19:10:18,183 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.012
+2024-03-05 19:10:20,891 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:20] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.000 0.003
+2024-03-05 19:10:20,912 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:20] "POST /web/dataset/call_kw/ir.module.module/search_read HTTP/1.1" 200 - 3 0.002 0.013
+2024-03-05 19:10:22,905 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:22] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.005 0.017
+2024-03-05 19:10:22,931 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.007
+2024-03-05 19:10:22,947 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.012
+2024-03-05 19:10:24,514 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.008 0.017
+2024-03-05 19:10:24,532 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.019 0.020
+2024-03-05 19:10:26,677 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.021 0.022
+2024-03-05 19:10:26,700 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:26] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.004
+2024-03-05 19:10:30,170 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:30] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.009 0.017
+2024-03-05 19:10:30,185 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:30] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.005
+2024-03-05 19:10:38,933 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.008 0.029
+2024-03-05 19:10:38,985 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.003 0.011
+2024-03-05 19:10:38,986 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.009
+2024-03-05 19:10:38,986 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.002 0.013
+2024-03-05 19:10:38,987 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.005 0.009
+2024-03-05 19:10:38,990 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.002 0.005
+2024-03-05 19:10:38,997 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:38] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.002 0.006
+2024-03-05 19:10:39,007 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.005 0.012
+2024-03-05 19:10:39,272 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.008
+2024-03-05 19:10:39,296 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:10:39,301 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/locale/es_VE HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:10:39,365 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.008 0.011
+2024-03-05 19:10:39,391 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.006
+2024-03-05 19:10:39,413 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.002 0.016
+2024-03-05 19:10:39,413 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.015
+2024-03-05 19:10:39,413 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.001 0.014
+2024-03-05 19:10:39,414 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.007 0.010
+2024-03-05 19:10:39,414 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.008 0.008
+2024-03-05 19:10:39,416 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.001 0.015
+2024-03-05 19:10:39,427 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.005
+2024-03-05 19:10:39,466 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.003
+2024-03-05 19:10:39,670 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.011
+2024-03-05 19:10:39,680 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:10:39,697 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/locale/es_VE HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:10:39,707 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.003
+2024-03-05 19:10:39,713 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.007
+2024-03-05 19:10:39,721 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 19:10:39,734 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.013
+2024-03-05 19:10:39,742 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.012
+2024-03-05 19:10:39,743 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.016 0.009
+2024-03-05 19:10:39,751 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.004 0.025
+2024-03-05 19:10:39,783 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.006 0.007
+2024-03-05 19:10:39,784 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.010 0.009
+2024-03-05 19:10:39,797 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.023 0.010
+2024-03-05 19:10:39,798 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.004 0.012
+2024-03-05 19:10:39,812 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.003
+2024-03-05 19:10:39,817 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.006 0.006
+2024-03-05 19:10:39,825 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.003 0.008
+2024-03-05 19:10:39,836 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:10:39,866 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.004 0.005
+2024-03-05 19:10:39,879 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.001 0.015
+2024-03-05 19:10:39,880 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.018
+2024-03-05 19:10:39,881 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.011 0.008
+2024-03-05 19:10:39,882 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.012 0.009
+2024-03-05 19:10:39,882 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.003 0.017
+2024-03-05 19:10:39,895 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.006
+2024-03-05 19:10:39,919 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:39] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.008
+2024-03-05 19:10:40,152 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.002 0.010
+2024-03-05 19:10:40,164 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:10:40,184 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/webclient/locale/es_VE HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:10:40,190 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.003
+2024-03-05 19:10:40,195 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.005
+2024-03-05 19:10:40,203 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 19:10:40,204 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.001
+2024-03-05 19:10:40,212 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.006
+2024-03-05 19:10:40,214 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.005 0.008
+2024-03-05 19:10:40,218 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.012
+2024-03-05 19:10:40,250 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 5 0.003 0.006
+2024-03-05 19:10:40,258 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.013 0.007
+2024-03-05 19:10:40,265 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.002 0.010
+2024-03-05 19:10:40,268 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.019 0.010
+2024-03-05 19:10:40,274 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 19:10:40,282 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.003 0.004
+2024-03-05 19:10:40,293 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 1 0.000 0.001
+2024-03-05 19:10:40,346 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:10:40] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.002
+2024-03-05 19:11:57,327 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.018 0.047
+2024-03-05 19:11:57,416 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.002 0.044
+2024-03-05 19:11:57,418 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.002 0.042
+2024-03-05 19:11:57,419 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.003 0.044
+2024-03-05 19:11:57,420 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.033 0.014
+2024-03-05 19:11:57,424 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.005 0.043
+2024-03-05 19:11:57,426 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.045
+2024-03-05 19:11:57,446 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.005 0.006
+2024-03-05 19:11:57,725 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.002 0.017
+2024-03-05 19:11:57,732 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.007
+2024-03-05 19:11:57,761 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.005
+2024-03-05 19:11:57,770 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.011
+2024-03-05 19:11:57,772 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.002
+2024-03-05 19:11:57,773 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.004
+2024-03-05 19:11:57,819 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.009
+2024-03-05 19:11:57,824 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.009
+2024-03-05 19:11:57,829 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.038
+2024-03-05 19:11:57,839 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.040 0.015
+2024-03-05 19:11:57,849 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.004 0.016
+2024-03-05 19:11:57,850 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.040 0.041
+2024-03-05 19:11:57,853 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.012 0.024
+2024-03-05 19:11:57,859 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.006 0.032
+2024-03-05 19:11:57,863 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.003 0.007
+2024-03-05 19:11:57,870 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.002 0.003
+2024-03-05 19:11:57,875 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.006 0.006
+2024-03-05 19:11:57,888 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.002 0.013
+2024-03-05 19:11:57,897 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 19:11:57,918 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:11:57] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:12:00,949 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:00] "POST /web/action/load HTTP/1.1" 200 - 8 0.016 0.015
+2024-03-05 19:12:00,968 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:00] "POST /web/dataset/call_kw/ir.module.module/get_apps_server HTTP/1.1" 200 - 1 0.001 0.004
+2024-03-05 19:12:02,225 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:02] "POST /web/webclient/version_info HTTP/1.1" 200 - 1 0.001 0.004
+2024-03-05 19:12:02,247 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:02] "POST /web/dataset/call_kw/ir.module.module/search_read HTTP/1.1" 200 - 3 0.002 0.012
+2024-03-05 19:12:03,468 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:03] "POST /web/action/load HTTP/1.1" 200 - 9 0.012 0.013
+2024-03-05 19:12:03,483 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:03] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.006
+2024-03-05 19:12:03,512 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:03] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2024-03-05 19:12:05,154 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:05] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.005 0.025
+2024-03-05 19:12:05,168 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:05] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.001 0.005
+2024-03-05 19:12:05,180 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 192.168.65.1 
+2024-03-05 19:12:05,464 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:05] "POST /web/dataset/call_button HTTP/1.1" 200 - 1142 0.160 0.129
+2024-03-05 19:12:09,491 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:09] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.006
+2024-03-05 19:12:09,513 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.007
+2024-03-05 19:12:09,527 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.011
+2024-03-05 19:12:11,851 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:11] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.012 0.025
+2024-03-05 19:12:11,871 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.018
+2024-03-05 19:12:14,865 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:14] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.009
+2024-03-05 19:12:14,879 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:14] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2024-03-05 19:12:17,775 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:17] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.009 0.023
+2024-03-05 19:12:17,793 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:12:17] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.005
+2024-03-05 19:14:30,554 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web?debug=1 HTTP/1.1" 200 - 10 0.011 0.047
+2024-03-05 19:14:30,621 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.006 0.014
+2024-03-05 19:14:30,621 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.005 0.013
+2024-03-05 19:14:30,625 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 1 0.000 0.013
+2024-03-05 19:14:30,627 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.002 0.020
+2024-03-05 19:14:30,628 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.004 0.018
+2024-03-05 19:14:30,628 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.006 0.014
+2024-03-05 19:14:30,681 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.003 0.031
+2024-03-05 19:14:30,970 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.003 0.032
+2024-03-05 19:14:30,976 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:30] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:14:31,087 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.006
+2024-03-05 19:14:31,106 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.023
+2024-03-05 19:14:31,111 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.016 0.035
+2024-03-05 19:14:31,112 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /web/action/load HTTP/1.1" 200 - 10 0.032 0.025
+2024-03-05 19:14:31,115 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.007
+2024-03-05 19:14:31,123 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.003
+2024-03-05 19:14:31,138 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.008 0.011
+2024-03-05 19:14:31,146 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /websocket HTTP/1.1" 101 - 1 0.002 0.018
+2024-03-05 19:14:31,150 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 14 0.026 0.034
+2024-03-05 19:14:31,157 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.017 0.018
+2024-03-05 19:14:31,157 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.054 0.025
+2024-03-05 19:14:31,161 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.007 0.008
+2024-03-05 19:14:31,163 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.004 0.030
+2024-03-05 19:14:31,169 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.001 0.004
+2024-03-05 19:14:31,176 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.003 0.004
+2024-03-05 19:14:31,192 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.003 0.012
+2024-03-05 19:14:31,199 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 19:14:31,221 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:14:31] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:15:45,220 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:45] "POST /web/action/load HTTP/1.1" 200 - 9 0.008 0.018
+2024-03-05 19:15:45,236 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:45] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 1 0.001 0.005
+2024-03-05 19:15:45,260 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:45] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.004
+2024-03-05 19:15:46,239 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:46] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.003 0.015
+2024-03-05 19:15:46,253 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:46] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.002 0.005
+2024-03-05 19:15:46,267 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 192.168.65.1 
+2024-03-05 19:15:46,562 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:46] "POST /web/dataset/call_button HTTP/1.1" 200 - 1142 0.156 0.145
+2024-03-05 19:15:50,614 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:50] "POST /web/action/load HTTP/1.1" 200 - 12 0.009 0.012
+2024-03-05 19:15:50,647 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:50] "POST /web/dataset/call_kw/utm.campaign/get_views HTTP/1.1" 200 - 18 0.010 0.015
+2024-03-05 19:15:50,663 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:50] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2024-03-05 19:15:50,668 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:50] "POST /web/dataset/call_kw/utm.campaign/web_search_read HTTP/1.1" 200 - 9 0.005 0.004
+2024-03-05 19:15:53,066 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:53] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.004 0.033
+2024-03-05 19:15:53,103 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.009
+2024-03-05 19:15:53,119 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.015
+2024-03-05 19:15:59,284 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.019 0.017
+2024-03-05 19:15:59,295 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:15:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.034 0.022
+2024-03-05 19:16:01,665 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.023 0.020
+2024-03-05 19:16:01,686 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.005
+2024-03-05 19:16:05,372 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:05] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.007 0.037
+2024-03-05 19:16:05,392 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:05] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.004 0.005
+2024-03-05 19:16:14,490 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-03-05 19:16:14,492 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-03-05 19:16:14,503 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 182, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 167, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-03-05 19:16:14,509 1 INFO odoo odoo.sql_db: Connection to the database failed 
+2024-03-05 19:16:14,510 1 WARNING odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 102, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-03-05 19:16:14,511 1 INFO odoo odoo.sql_db: Connection to the database failed 
+2024-03-05 19:16:14,513 1 WARNING odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 102, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-03-05 19:16:15,012 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-03-05 19:16:15,714 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:560: DeprecationWarning: The osv-memory-age-limit is a deprecated alias to the transient-age-limit option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 560, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:16:15,714 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:566: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 566, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:16:15,714 1 INFO ? odoo: Odoo version 16.0-20240229 
+2024-03-05 19:16:15,715 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-03-05 19:16:15,715 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-03-05 19:16:15,715 1 INFO ? odoo: database: odoo@db:5432 
+2024-03-05 19:16:15,770 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-03-05 19:16:15,875 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea99b3c33f68:8069 
+2024-03-05 19:16:16,740 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 19:16:16,746 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-03-05 19:16:16,769 1 INFO odoo odoo.modules.loading: loading 68 modules... 
+2024-03-05 19:16:17,019 1 INFO odoo odoo.modules.loading: 68 modules loaded in 0.25s, 0 queries (+0 extra) 
+2024-03-05 19:16:17,098 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 19:16:17,102 1 INFO odoo odoo.modules.registry: Registry loaded in 0.395s 
+2024-03-05 19:16:17,103 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 19:16:17,177 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:17] "GET /websocket HTTP/1.1" 101 - 23 0.029 0.442
+2024-03-05 19:16:17,182 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-03-05 19:16:20,936 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-03-05 19:16:20,936 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-03-05 19:16:20,942 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 182, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 167, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-03-05 19:16:20,945 1 INFO odoo odoo.sql_db: Connection to the database failed 
+2024-03-05 19:16:20,945 1 WARNING odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 102, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-03-05 19:16:20,951 1 INFO odoo odoo.sql_db: Connection to the database failed 
+2024-03-05 19:16:20,951 1 WARNING odoo odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 102, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-03-05 19:16:21,298 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2024-03-05 19:16:21,903 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:560: DeprecationWarning: The osv-memory-age-limit is a deprecated alias to the transient-age-limit option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 560, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:16:21,903 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:566: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 566, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:16:21,904 1 INFO ? odoo: Odoo version 16.0-20240229 
+2024-03-05 19:16:21,904 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-03-05 19:16:21,904 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-03-05 19:16:21,904 1 INFO ? odoo: database: odoo@db:5432 
+2024-03-05 19:16:21,955 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-03-05 19:16:22,036 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea99b3c33f68:8069 
+2024-03-05 19:16:23,671 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 19:16:23,679 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-03-05 19:16:23,708 1 INFO odoo odoo.modules.loading: loading 68 modules... 
+2024-03-05 19:16:23,929 1 INFO odoo odoo.modules.loading: 68 modules loaded in 0.22s, 0 queries (+0 extra) 
+2024-03-05 19:16:24,008 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 19:16:24,012 1 INFO odoo odoo.modules.registry: Registry loaded in 0.374s 
+2024-03-05 19:16:24,012 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 19:16:24,084 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:24] "GET /websocket HTTP/1.1" 101 - 23 0.022 0.427
+2024-03-05 19:16:24,088 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-03-05 19:16:26,663 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:26] "GET /web?debug=1 HTTP/1.1" 200 - 84 0.038 1.506
+2024-03-05 19:16:27,342 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:27,342 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:27,342 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:27,342 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:27,343 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:27,343 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:27,362 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/webclient/load_menus/01927a839ad8086eba70a0103c45351a4fd90862bf9a0bf29467f802963062f9 HTTP/1.1" 200 - 2 0.001 0.649
+2024-03-05 19:16:27,368 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/assets/464-207200c/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.001 0.663
+2024-03-05 19:16:27,369 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/assets/463-0762c17/web.assets_common.min.css HTTP/1.1" 200 - 4 0.003 0.664
+2024-03-05 19:16:27,372 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/assets/465-0762c17/web.assets_common.min.js HTTP/1.1" 200 - 4 0.003 0.668
+2024-03-05 19:16:27,372 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/assets/466-207200c/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.006 0.662
+2024-03-05 19:16:27,372 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/assets/467-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.004 0.666
+2024-03-05 19:16:27,379 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.003 0.008
+2024-03-05 19:16:27,657 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.007
+2024-03-05 19:16:27,683 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/webclient/translations/5d6fd9aaf299548f6ce964cb4e19ed2a11468bc1?lang=es_VE HTTP/1.1" 200 - 2 0.001 0.006
+2024-03-05 19:16:27,687 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/webclient/locale/es_VE HTTP/1.1" 200 - 1 0.000 0.002
+2024-03-05 19:16:27,775 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.003
+2024-03-05 19:16:27,782 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /web/action/load HTTP/1.1" 200 - 11 0.007 0.006
+2024-03-05 19:16:27,793 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.003
+2024-03-05 19:16:27,794 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.004
+2024-03-05 19:16:27,807 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.012
+2024-03-05 19:16:27,830 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.030 0.010
+2024-03-05 19:16:27,855 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 45 0.022 0.042
+2024-03-05 19:16:27,862 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2024-03-05 19:16:27,872 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.006 0.008
+2024-03-05 19:16:27,886 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 34 0.024 0.011
+2024-03-05 19:16:27,906 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /mail/init_messaging HTTP/1.1" 200 - 47 0.044 0.011
+2024-03-05 19:16:27,907 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 9 0.005 0.032
+2024-03-05 19:16:27,916 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.002
+2024-03-05 19:16:27,922 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.004 0.004
+2024-03-05 19:16:27,955 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:27] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 11 0.002 0.018
+2024-03-05 19:16:35,919 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-03-05 19:16:35,920 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-03-05 19:16:36,036 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 9 connections  
+2024-03-05 19:16:37,545 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:560: DeprecationWarning: The osv-memory-age-limit is a deprecated alias to the transient-age-limit option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 560, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:16:37,545 1 WARNING ? py.warnings: /usr/lib/python3/dist-packages/odoo/tools/config.py:566: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "/usr/bin/odoo", line 8, in <module>
+    odoo.cli.main()
+  File "/usr/lib/python3/dist-packages/odoo/cli/command.py", line 66, in main
+    o.run(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 180, in run
+    main(args)
+  File "/usr/lib/python3/dist-packages/odoo/cli/server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 379, in parse_config
+    self._warn_deprecated_options()
+  File "/usr/lib/python3/dist-packages/odoo/tools/config.py", line 566, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-03-05 19:16:37,545 1 INFO ? odoo: Odoo version 16.0-20240229 
+2024-03-05 19:16:37,546 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-03-05 19:16:37,546 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-03-05 19:16:37,546 1 INFO ? odoo: database: odoo@db:5432 
+2024-03-05 19:16:37,599 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-03-05 19:16:37,689 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ea99b3c33f68:8069 
+2024-03-05 19:16:40,300 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 19:16:40,307 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-03-05 19:16:40,334 1 INFO odoo odoo.modules.loading: loading 68 modules... 
+2024-03-05 19:16:40,571 1 INFO odoo odoo.modules.loading: 68 modules loaded in 0.24s, 0 queries (+0 extra) 
+2024-03-05 19:16:40,638 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 19:16:40,641 1 INFO odoo odoo.modules.registry: Registry loaded in 0.364s 
+2024-03-05 19:16:40,642 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 19:16:40,704 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:40] "GET /websocket HTTP/1.1" 101 - 23 0.017 0.430
+2024-03-05 19:16:40,709 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-03-05 19:16:41,991 1 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:16:42,034 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:42] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 53 0.013 0.174
+2024-03-05 19:16:42,058 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.006
+2024-03-05 19:16:42,064 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:42] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.008 0.010
+2024-03-05 19:16:43,732 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.009 0.029
+2024-03-05 19:16:43,747 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.024 0.025
+2024-03-05 19:16:48,567 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.018
+2024-03-05 19:16:48,584 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.004
+2024-03-05 19:16:51,524 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:51] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 8 0.013 0.049
+2024-03-05 19:16:51,535 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:51] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.001 0.002
+2024-03-05 19:16:58,819 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['manage'] to user admin #2 via 192.168.65.1 
+2024-03-05 19:16:58,820 1 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-03-05 19:16:58,822 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['manage'] to user admin #2 via 192.168.65.1 
+2024-03-05 19:16:59,240 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 19:16:59,244 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-03-05 19:16:59,252 1 INFO odoo odoo.modules.loading: updating modules list 
+2024-03-05 19:16:59,253 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 192.168.65.1 
+2024-03-05 19:16:59,484 1 INFO odoo odoo.modules.loading: loading 68 modules... 
+2024-03-05 19:16:59,500 1 INFO odoo odoo.modules.loading: 68 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-03-05 19:16:59,501 1 INFO odoo odoo.modules.loading: loading 69 modules... 
+2024-03-05 19:16:59,502 1 INFO odoo odoo.modules.loading: Loading module manage (2/69) 
+2024-03-05 19:16:59,573 1 INFO odoo odoo.modules.loading: loading manage/views/views.xml 
+2024-03-05 19:16:59,575 1 INFO odoo odoo.modules.loading: loading manage/views/templates.xml 
+2024-03-05 19:16:59,576 1 INFO odoo odoo.modules.loading: Module manage: loading demo 
+2024-03-05 19:16:59,576 1 INFO odoo odoo.modules.loading: loading manage/demo/demo.xml 
+2024-03-05 19:16:59,579 1 INFO odoo odoo.addons.base.models.ir_module: module manage: no translation for language es_VE 
+2024-03-05 19:16:59,593 1 INFO odoo odoo.modules.loading: Module manage loaded in 0.09s, 16 queries (+16 other) 
+2024-03-05 19:16:59,593 1 INFO odoo odoo.modules.loading: 69 modules loaded in 0.09s, 16 queries (+16 extra) 
+2024-03-05 19:16:59,911 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 19:16:59,915 1 INFO odoo odoo.modules.registry: Registry loaded in 0.680s 
+2024-03-05 19:16:59,915 1 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-03-05 19:16:59,917 1 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-03-05 19:16:59,918 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:16:59] "POST /web/dataset/call_button HTTP/1.1" 200 - 2050 0.351 0.758
+2024-03-05 19:16:59,937 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 19:17:01,468 1 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'manage', defaulting to LGPL-3 
+2024-03-05 19:17:01,617 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:01] "GET /web HTTP/1.1" 200 - 89 0.028 1.654
+2024-03-05 19:17:01,663 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:01] "GET /web/webclient/translations/cf3c286bb07e03992122898e1ec6e590d2efc514?lang=es_VE HTTP/1.1" 200 - 3 0.001 0.007
+2024-03-05 19:17:02,138 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.002 0.009
+2024-03-05 19:17:02,166 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.011
+2024-03-05 19:17:02,168 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2024-03-05 19:17:02,176 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.005 0.018
+2024-03-05 19:17:02,224 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2024-03-05 19:17:02,240 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.016 0.015
+2024-03-05 19:17:02,248 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.029 0.010
+2024-03-05 19:17:02,263 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.003 0.004
+2024-03-05 19:17:02,266 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:02] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.004 0.005
+2024-03-05 19:17:53,473 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:53] "POST /web/action/load HTTP/1.1" 200 - 11 0.010 0.030
+2024-03-05 19:17:53,530 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:53] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.019 0.025
+2024-03-05 19:17:53,549 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.003
+2024-03-05 19:17:53,559 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.008 0.008
+2024-03-05 19:17:55,320 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.031
+2024-03-05 19:17:55,331 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.012 0.023
+2024-03-05 19:17:57,042 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.020
+2024-03-05 19:17:57,062 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:17:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.005
+2024-03-05 19:18:00,494 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:00] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 8 0.004 0.016
+2024-03-05 19:18:00,505 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:00] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.001 0.003
+2024-03-05 19:18:00,559 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:00] "GET /web/bundle/web_editor.assets_wysiwyg?lang=es_VE&debug=1 HTTP/1.1" 200 - 11 0.003 0.028
+2024-03-05 19:18:00,622 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:00] "GET /web/image?model=ir.module.module&id=557&field=icon_image&unique=1709666219000 HTTP/1.1" 200 - 4 0.001 0.004
+2024-03-05 19:18:37,764 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['manage'] to user admin #2 via 192.168.65.1 
+2024-03-05 19:18:37,768 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['manage'] to user admin #2 via 192.168.65.1 
+2024-03-05 19:18:37,768 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['manage'] to user admin #2 via 192.168.65.1 
+2024-03-05 19:18:38,057 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 192.168.65.1 
+2024-03-05 19:18:38,075 1 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-03-05 19:18:38,082 1 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-03-05 19:18:38,094 1 INFO odoo odoo.modules.loading: updating modules list 
+2024-03-05 19:18:38,095 1 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 192.168.65.1 
+2024-03-05 19:18:38,346 1 INFO odoo odoo.modules.loading: loading 69 modules... 
+2024-03-05 19:18:38,346 1 INFO odoo odoo.modules.loading: Loading module manage (2/69) 
+2024-03-05 19:18:38,372 1 INFO odoo odoo.modules.loading: loading manage/views/views.xml 
+2024-03-05 19:18:38,374 1 INFO odoo odoo.modules.loading: loading manage/views/templates.xml 
+2024-03-05 19:18:38,375 1 INFO odoo odoo.modules.loading: Module manage: loading demo 
+2024-03-05 19:18:38,376 1 INFO odoo odoo.modules.loading: loading manage/demo/demo.xml 
+2024-03-05 19:18:38,379 1 INFO odoo odoo.addons.base.models.ir_module: module manage: no translation for language es_VE 
+2024-03-05 19:18:38,383 1 INFO odoo odoo.modules.loading: Module manage loaded in 0.04s, 16 queries (+16 other) 
+2024-03-05 19:18:38,403 1 INFO odoo odoo.modules.loading: 69 modules loaded in 0.06s, 16 queries (+16 extra) 
+2024-03-05 19:18:38,843 1 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-03-05 19:18:38,847 1 INFO odoo odoo.modules.registry: Registry loaded in 0.781s 
+2024-03-05 19:18:38,847 1 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-03-05 19:18:38,849 1 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2024-03-05 19:18:38,850 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 3180 0.503 0.611
+2024-03-05 19:18:38,862 1 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-03-05 19:18:39,095 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "GET /web HTTP/1.1" 200 - 89 0.024 0.211
+2024-03-05 19:18:39,497 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.002 0.004
+2024-03-05 19:18:39,523 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.007
+2024-03-05 19:18:39,525 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.009
+2024-03-05 19:18:39,532 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.013 0.009
+2024-03-05 19:18:39,575 1 INFO ? werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.003
+2024-03-05 19:18:39,581 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 35 0.017 0.012
+2024-03-05 19:18:39,591 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.024 0.014
+2024-03-05 19:18:39,605 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.003 0.003
+2024-03-05 19:18:39,611 1 INFO odoo werkzeug: 192.168.65.1 - - [05/Mar/2024 19:18:39] "POST /mail/load_message_failures HTTP/1.1" 200 - 13 0.005 0.007
+2024-03-05 19:20:37,864 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-03-05 19:20:37,877 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-03-05 19:20:37,885 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-03-05 19:20:37,890 1 INFO odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-03-05 19:20:37,896 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2024-03-05 19:20:37,901 1 INFO odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2024-03-05 19:20:37,906 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-03-05 19:20:37,909 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-03-05 19:20:37,912 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-03-05 19:20:37,915 1 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-03-05 19:20:37,919 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-03-05 19:20:37,922 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-03-05 19:20:37,925 1 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-03-05 19:20:37,927 1 INFO odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 

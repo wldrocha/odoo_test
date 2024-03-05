@@ -7,16 +7,16 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+        This is a test module to manage the sales and purchase of the company
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "your test compoany",
+    'website': "https://www.yourtestcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'sales',
     'version': '0.1',
 
     # any module necessary for this one to work correctly

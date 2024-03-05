@@ -9,7 +9,7 @@ services:
     volumes:
       - odoo-web-data:/var/lib/odoo
       - ./config:/etc/odoo
-      - ./addons:/mnt/extra-addons
+      - ./dev-addons:/mnt/extra-addons
       - ./log/:/var/log/odoo
   db:
     image: postgres:16
