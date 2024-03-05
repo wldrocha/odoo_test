@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class manage(models.Model):
-#     _name = 'manage.manage'
-#     _description = 'manage.manage'
+class task(models.Model):
+    _name = 'manage.task' # module_name.model_name
+    _description = 'manage.task'
 
-#     name = fields.Char()
+#fields on DB
+    name = fields.Char() # task name
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
