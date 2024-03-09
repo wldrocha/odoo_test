@@ -17,7 +17,9 @@ class task(models.Model):
     is_paused = fields.Boolean(string="Pausada") # task is paused and label is "pausada"
     # many to one relation is a internal relation between two models what translate to consult the sprint of a task
     sprint = fields.Many2one('manage.sprint', string="Sprint") # task sprint and label is "sprint"
-    technology = fields.Many2many('manage.technology', string="Tecnología") # task technology and label is "tecnología"
+    # atribute: relation is the name of the table that will be created to store the relation
+    # column1 and column2 are the names of the columns that will be created in the table to store the relation
+    technology = fields.Many2many(comodel_name='manage.technology', string="Tecnología", relation='technologies_task', column1='task_id', column2='technology_id') # task technology and label is "tecnología"
 
 class sprint(models.Model):
     _name = 'manage.sprint' # module_name.model_name
@@ -43,4 +45,5 @@ class technology(models.Model):
     # can be binary, however it is recommended to use the Image field (which exists since version 16).
     #where max_width and max_height are the maximum dimensions of the image
     photo = fields.Image(max_width=300, max_height=300, string="Foto")
+    task = fields.Many2many(comodel_name='manage.task', string="Tareas", relation='technologies_task', column1='technology_id', column2='task_id')
     
