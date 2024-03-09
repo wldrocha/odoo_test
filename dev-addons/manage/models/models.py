@@ -17,6 +17,7 @@ class task(models.Model):
     is_paused = fields.Boolean(string="Pausada") # task is paused and label is "pausada"
     # many to one relation is a internal relation between two models what translate to consult the sprint of a task
     sprint = fields.Many2one('manage.sprint', string="Sprint") # task sprint and label is "sprint"
+    technology = fields.Many2many('manage.technology', string="Tecnología") # task technology and label is "tecnología"
 
 class sprint(models.Model):
     _name = 'manage.sprint' # module_name.model_name
@@ -31,4 +32,15 @@ class sprint(models.Model):
     # codemodel_name is the name of the model to be related
     # inverse_name is the name of the field in the related model
     # string is the label of the relation
-    task = fields.One2many(comodel_name="manage.task", inverse_name='sprint', string="Tareas") 
+    task = fields.One2many(comodel_name="manage.task", inverse_name='sprint', string="Tareas")
+    
+class technology(models.Model):
+    _name = 'manage.technology'
+    _description = 'manage.technology'
+    
+    name = fields.Char(string="Nombre", help="Escribe el nombre de la tecnología")
+    description = fields.Text(string="Descripción")
+    # can be binary, however it is recommended to use the Image field (which exists since version 16).
+    #where max_width and max_height are the maximum dimensions of the image
+    photo = fields.Image(max_width=300, max_height=300, string="Foto")
+    
