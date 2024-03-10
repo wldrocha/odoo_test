@@ -28,6 +28,7 @@
         <form>
           <!-- field typ, this model should exist -->
           <group>
+            <field name="code" />
             <field name="name" />
             <field name="description" />
             <field name="creation_date" />
@@ -36,6 +37,26 @@
             <field name="is_paused" />
             <field name="sprint" />
             <field name="technology" />
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="manage.sprint_form">
+      <field name="name">manage sprint form</field>
+      <!-- model view -->
+      <field name="model">manage.sprint</field>
+      <field name="arch" type="xml">
+        <!-- view type -->
+        <form>
+          <!-- field typ, this model should exist -->
+          <group>
+            <field name="name" />
+            <field name="description" />
+            <field name="duration" />
+            <field name="start_date" />
+            <field name="end_date" />
+            <field name="task" />
           </group>
         </form>
       </field>
@@ -96,7 +117,7 @@
       action="manage.action_sprint_window" />
     <menuitem name="Technologies" id="manage.menu_1_technology_list" parent="manage.menu_1"
       action="manage.action_tecnology_window" />
-      
+
 
   </data>
 </odoo>
